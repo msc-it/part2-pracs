@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+  http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+version="3.1">  
+  <servlet>
+    <servlet-name>FirstPage</servlet-name>
+    <servlet-class>com.practicals.FirstPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstPage</servlet-name>
+    <url-pattern>/FirstPage</url-pattern>
+    <url-pattern>/servlet/FirstPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>FormSubmitted</servlet-name>
+    <servlet-class>com.practicals.FormSubmitted</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormSubmitted</servlet-name>
+    <url-pattern>/servlet/FormSubmitted</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SecondPage</servlet-name>
+    <servlet-class>com.practicals.SecondPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondPage</servlet-name>
+    <url-pattern>/servlet/SecondPage</url-pattern>
+  </servlet-mapping>
+</web-app>

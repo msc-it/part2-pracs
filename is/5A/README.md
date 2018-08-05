@@ -1,0 +1,1 @@
+Steepest ascent hell climbing (Gradient search) is a greedy best first search technique. Use the same code as in 4A. [Link](../4A)

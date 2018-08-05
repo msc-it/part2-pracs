@@ -1,0 +1,1 @@
+javac com\practicals\*.java
